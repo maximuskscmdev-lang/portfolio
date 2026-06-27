@@ -8,6 +8,8 @@ import { ProjectGallery } from './components/ProjectGallery';
 import { NoiseOverlay } from './components/NoiseOverlay';
 import { InfiniteMarquee } from './components/InfiniteMarquee';
 import { BackgroundBlobs } from './components/BackgroundBlobs';
+import { TimelineSection } from './components/TimelineSection';
+import { SelectedWorks } from './components/SelectedWorks';
 
 function App() {
   useEffect(() => {
@@ -74,7 +76,11 @@ function App() {
       >
         <InfiniteMarquee />
         
-        <main className="container-fluid" style={{ paddingTop: '2rem' }}>
+        <TimelineSection />
+
+        <SelectedWorks />
+
+        <main className="container-fluid" style={{ position: 'relative', zIndex: 30, backgroundColor: 'var(--bg-color)', paddingTop: '4rem', paddingBottom: '2rem' }}>
           <ProjectGallery />
         </main>
 

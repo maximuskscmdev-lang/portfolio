@@ -490,5 +490,3 @@ function e(e, t) {
 }
 //#endregion
 export { e as default };
-
-//# sourceMappingURL=webgl-fluid.mjs.map

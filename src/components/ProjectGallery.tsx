@@ -42,7 +42,7 @@ export const ProjectGallery: React.FC = () => {
           viewport={{ once: true }}
           style={{ fontSize: '3rem', fontWeight: 800, marginBottom: '2rem' }}
         >
-          Selected <span className="text-gradient">Works</span>
+          All <span className="text-gradient">Works</span>
         </motion.h2>
         
         {/* Filters */}
